@@ -1,0 +1,75 @@
+/*----global----*/
+@font-face {
+    font-family: "Retronoid";
+    src: url("fonts/Retronoid-BZX3.ttf") format("truetype");
+}
+h1, h2, h3, h4{
+    font-family: 'Manrope', serif;
+}
+p {
+    font-size: 20px;
+   font-family: 'Didact Gothic', sans-serif; 
+}
+#content{
+    display:none;
+}
+/*-----front page---*/
+#front-page .col-12{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#front-page h1, #front-page button{
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
+#front-page button{
+    margin-left:80px;
+}
+
+
+/*-----begin title---*/
+.begin-title{
+text-align: center;  
+}
+.begin-title h3 {
+    font-family: "Retronoid";
+    position:absolute;
+    margin: 0px 25px;
+    font-size: 70px;
+    color: #FFEE00;
+}
+.begin-title img{
+    height:500px;
+    width:100%;
+}
+/*------Jumbotron-----*/
+.jumbotron{
+padding: 30px 20px;
+margin-bottom:210px;
+}
+.jumbotron h2,.jumbotron p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight:200;
+}
+
+
+/*------Games-----*/
+.col-8 img{
+margin: 0px 20px 20px 0px;
+width:500px;
+float:left;
+}
+
+.col-8{
+    margin-top:130px;
+}
