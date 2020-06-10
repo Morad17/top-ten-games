@@ -7,16 +7,18 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Manrope:wght@200;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <script
     src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
     crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Home Page</title>
 </head>
-<body>     
+<body>    
+<!---Intro Page--> 
    <div class="row no-gutters" id="front-page">
 
             <div class="col-12" >
@@ -24,12 +26,52 @@
             <button>Click Here!</button> </a> 
             </div>      
     </div>
-
+<!--Title and Navbar-->
         <div class="row no-gutters" id="content">
+            
+                <nav class="navbar navbar-dark flex bg-dark navbar-expand-xl">
+                    <div class="col-6 flex">
+                     <a class="navbar-brand"><h3>Top Ten Games</h3></a>
+                    </div>
+                    <div class="col-6 flex">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Montage</a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Game Info<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Street Fighter</a>
+                                </li>
+                                <li>
+                                    <a href="#">Street Fighter</a>
+                                </li>
+                                <li>
+                                    <a href="#">Street Fighter</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    
+                    </ul>  
+                    </div>
+                </nav>
+            
+
+
+ 
                 <div class="col-12 begin-title" >
-                <h3>Top Ten Games</h3>
+
                 <img src="img/mario.png" alt="mario-img">
                 </div>
+
             <!--Content-->
             <div class="row no-gutters justify-content-center" >
                 <div class="jumbotron col-7 ">
@@ -40,7 +82,7 @@
             <div class="row no-gutters justify-content-center">  
                 <div class="col-7 number-10">
                     <h2> Street Figher</h2>
-                    <img src="img/street-fighter.jpg">
+                    <a href="street-fighter.html"><img src="img/street-fighter.jpg"></a>
                     <p>Street Fighter has been a staple for almost all console alike. Starting in 1987, the original Street Fighter was released, which was followed by five other main sereies games, and various spin-offs and crossovers. Bar the visuals the game core hasnt changed much; you pick your player from a select roster and try to defeat your opponest before your health bar runs out.There are e-sports tournamets that are held every year to determine the top gamer, with the winner takeing away up to $1 million. </p>
                         <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -59,7 +101,7 @@
                 </div>               
                 <div class="col-7 number-9">
                     <h2> Final Fantasy</h2>
-                    <img src="img/final-fantasy.jpg">
+                    <a href="final-fantasy.html"><img src="img/final-fantasy.jpg"></a>
                     <p>Finaly Fantasy, of course had to take a spot on the top ten list. The game helped define rpg's to this day and pioneered the turn style fighting format. With dramatic stories and over the top characers Final Fantasy has everything! The franchise has explored many avenues, including mmo's (massive multiplayer online games). These games are played online where players tend to level up through quests given and gain items through raids and loots. Upon its inception Final Fantasy onliNe received very negative review. However the franchise brough it back, with making a realm reborn expansion, which set a precedence for mmo's </p>
                         <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -78,7 +120,7 @@
 
                 <div class="col-7 number-8">
                     <h2> World Of Warcraft</h2>
-                    <img src="img/world-of-warcraft.jpg">
+                    <a href="world-of-warcraft.html"><img src="img/world-of-warcraft.jpg"></a>
                     <p>The game that defined the MMO genre. World Of Warcraft is a name known to any gamer alike. From large open worlds, to many different pvp option, to group dungeion raids, World Of Warcradt gives players so much choice and freedom on what they wish to do. Players can pick from 13 playable races each with their own affiliations (Pandarian classed as neutral), where players chose from two global groups, The Hoard, or The Alliance! This allows players to interact with other friendly races and battle foes. WOW can be seen as the trend setter for a lot of the looting and raiding rpg games.</p>
                         <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -97,7 +139,7 @@
 
                 <div class="col-7 number-7">
                     <h2>Mass Effect</h2>
-                    <img src="img/mass-effect.jpg">
+                    <a href="mass-effect.html"><img src="img/mass-effect.jpg"></a>
                     <p>Mass Effect is another role playing game that carved its own place in gaming history. There have been 3 main titles in the genre, starting on Xbox 360, with the original Mass Effect. It wasnt until Mass Effect 2's release that the franchise was catupaultied to major success. The second title in the genre introduced better combat mechanics and many other choosable characters. In Mass Effect you play as captain John Shepard, who capains a spaceship with aims to stop the elusive 'reapers'. Mass Effect is known for its increadible story that is be altered and affected by the character decisions.</p>
                         <div class="fact-file">
                             <h4>Fun Trivia</h4>
@@ -116,7 +158,7 @@
 
                 <div class="col-7 number-6">
                 <h2> Call Of Duty</h2>
-                <img src="img/call-of-duty.jpg">
+                <a href="call-of-duty.html"><img src="img/call-of-duty.jpg"></a>
                 <p>One of the biggest franchises to date, Call Of Duty is in at number 6. Call Of Duty is a First Person Shooter, that started out in 2003.There main focus was on world war 2 , however moving on the series different time periods have been the main inspiration. Players are able top pick select guns from these time periods to fight against eachother and the computer. Actvision generally release a new game in the franchise every years, allowing for an update and refresh on weapons, missions and graphics.  </p>
                     <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -133,7 +175,7 @@
 
                 <div class="col-7 number-5">
                 <h2>Sid Meiers Civilization </h2>
-                <img src="img/civ-v.jpg">
+                <a href="civilization.html"><img src="img/civ-v.jpg"></a>
                 <p>One of the largest stategy games in the genre, Civilization gives players the ability to build an empire from scratch, to a large all encompassing dominant force. A standout game, no other game lets players create large cultural cities, whilst learing about the real historical relics of the past. Players choose from an array of cultural figues, such as Elizabeth of England, and make choices from the get go to dominate rival groups. You can win in several ways, such as domination vicory (taking everyones capital), or technological victory (by reaching Alpha Centauri). </p>
                     <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -151,7 +193,7 @@
 
                 <div class="col-7 number-4">
                 <h2>Pokemon</h2>
-                <img src="img/pokemon.jpg">
+                <a href="pokemon.html"><img src="img/pokemon.jpg"></a>
                 <p>Any list of most influential game titles in the world could not be complete with Pokemon. Pokemon started out in 1995 with the release of Pokemon Green and Red, then later released Yellow. Pokemon set the trend for other games to follow, becoming a major success after a year of its inception. By making the characters more 'cuddly' and family friendly, they appealed to wider markers, kids and adults alike.The gameplay had a simple concept; you capture the pocket monster, train it and fight gyms to win badges. The similicity of the game mechanics is one of the key factors of its success. Anyone can understand the moves, skills and leveling up system, even adult born before the gameing era!</p>
                      <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -169,7 +211,7 @@
                 
                 <div class="col-7 number-3">
                 <h2>Super Mario</h2>
-                <img src="img/mario.jpg">
+                <a href="super-mario.html"><img src="img/mario.jpg"></a>
                 <p>Another Nintendo staple, and globally known Mario. The first Mario game was released in 1985, named Super Mario Bros on the NES. The game is a side platformer where the player has to run from one end of the map to another, avoiding obstacles in the way. The player plays Mario, the plumber whose mission is to save Princess Peach from the evil Bowser. The sheer creativity and variety in each map allows for endless fun trying to go from start to finish. There have also been many variations of the game, such as Mario creater, where players can create an obstacle course for people to complete. The game can be enjoyed by all ages, which makes it a very accesible game. </p>
                      <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -187,7 +229,7 @@
 
                 <div class="col-7 number-2">
                 <h2>Sonic</h2>
-                <img src="img/sonic.jpg">
+                <a href="sonic.html"><img src="img/sonic.jpg"></a>
                 <p>Another media king, Sonic The Hedgehod has been a major symbol for gaming since 1991. The inception of Sonic came when Sega bosses were looking to compete with the media giant Mario from Nintendo. There have been many vaiations of the game, but like Mario you generally need to go from one side of the map to the other. Sonic is meant to be an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist. He is able to curl up into a ball to roll around the map, making for more interesting gameplay than simple running around.</p>
                      <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -205,7 +247,7 @@
 
                 <div class="col-7 number-1">
                 <h2> Elder Scrolls: Skyrim</h2>
-                <img src="img/skyrim.jpg">
+                <a href="skyrim.html"><img src="img/skyrim.jpg"></a>
                 <p>Here it finally is the number one spot. There have been many record breaking games in the list, but none immerses the gamer in a more real and breathtaking way than Elder Scrolls Skyrim. Released in November 2011 Skyrim was the fifth main installment in the Elder Scrolls line. The game puts the player in a viking/saxon-esque time where they are the Dragonborn, with the quest to defeat the dragon Alduin the World-Eater. Although this is the main plot many players lose trach of this, through the thousands of quests available to them, where they can choose their fate and loalties to differend holds (provinces). The size and beauty of Skyrim takes anyone aback, where you can spend hours just walking around, aimlessly looking for random spots. Coupled with this Dragons can randomly appear at any time, so you have to keep on guard.</p>
                      <div class="fact-file">
                         <h4>Fun Trivia</h4>
@@ -228,4 +270,5 @@
                     
             </div>
 </body>
+
 </html>

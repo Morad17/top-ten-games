@@ -40,16 +40,33 @@ p {
 .begin-title{
 text-align: center;  
 }
-.begin-title h3 {
-    font-family: "Retronoid";
-    position:absolute;
-    margin: 0px 25px;
-    font-size: 70px;
-    color: #FFEE00;
-}
+
 .begin-title img{
     height:500px;
     width:100%;
+}
+/*------NavBar-----*/
+.nav li a{
+    padding: 10px 10px;
+    color:#FFEE00 !important;
+
+}
+.dropdown{
+    margin-top:10px;
+}
+.navbar h3 {
+    margin-left:20px;
+    display:contents;
+    font-family: "Retronoid";
+    position:absolute;
+    font-size: 60px;
+    color: #FFEE00;
+}
+.navbar-brand{
+    margin:-20px 5px;
+}
+.col-6 ul{
+    float:right;
 }
 /*------Jumbotron-----*/
 .jumbotron{
