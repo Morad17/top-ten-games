@@ -34,7 +34,10 @@ p {
 #front-page button{
     margin-left:80px;
 }
-
+.container-fluid{
+    padding-left:0;
+    padding-right: 0;
+}
 
 /*-----begin title---*/
 .begin-title{
@@ -47,26 +50,30 @@ text-align: center;
 }
 /*------NavBar-----*/
 .nav li a{
-    padding: 10px 10px;
+    padding: 10px 20px;
     color:#FFEE00 !important;
-
+    font-size: 17px;
+}
+.nav li{
+    padding-right: 15px;
 }
 .dropdown{
     margin-top:10px;
 }
 .navbar h3 {
-    margin-left:20px;
-    display:contents;
     font-family: "Retronoid";
-    position:absolute;
     font-size: 60px;
     color: #FFEE00;
 }
 .navbar-brand{
     margin:-20px 5px;
 }
-.col-6 ul{
-    float:right;
+#content .container-fluid, .profile-row .container-fluid{
+    justify-content: flex-end;
+}
+/*------Dropdown width fix-----*/
+.dropdown-menu{
+    width:178px;
 }
 /*------Jumbotron-----*/
 .jumbotron{
@@ -155,4 +162,17 @@ float:left;
 }
 .number-1 img{
 float:right;
+}
+/*------Game Profiles-----*/
+
+//.profile-row, .profile-row .row{
+    display:block;
+}
+.profile-row img{
+    float:left;
+    height:400px;
+    margin: 5px 20px 20px 0;
+}
+.profile-row .jumbotron{
+    margin-bottom:110px;
 }
