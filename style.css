@@ -19,20 +19,29 @@ p {
     display:flex;
     justify-content: center;
     align-items: center;
+    position:absolute;
     
-
 }
-
+#front-page h1 {
+    font-family: "Retronoid";
+    font-size: 110px;
+    color: #FFEE00;
+}
 #front-page h1, #front-page button{
-
+    
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
-
+.carousel-item img{
+    height: 990px;
+}
 
 #front-page button{
     margin-left:80px;
+    margin-top: 15px;
+    font-size: 25px;
+    
 }
 .container-fluid{
     padding-left:0;
